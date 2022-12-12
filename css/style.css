@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ################################################ Section Header ################################################ */
+
+header {
+    width: 100vw;
+    height: 150px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+}
+
+.header_text {
+    font-weight: bold;
+    color: white;
+}
+
+/* ################################################ Section Hero ################################################ */
+
+.hero {
+    background-image: url(../img/15.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* ######################## Punchline ######################## */
+
+.punchline{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(48, 48, 48, 0.342);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.punchline_text {
+    color: white;
+    font-weight: bold;
+}
+
+/* ######################## Img ######################## */
+
+.products {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mcdo {
+    height: 300px;
+}
+.coca {
+    height: 300px;
+    width: 400px;
+    margin-left: 100px ;
+    margin-right: 100px ;
+}
+.voiture {
+    height: 300px;
+}
+
+/* ######################## Button ######################## */
+
+.plus_bas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: auto;
+    background-color: seagreen;
+    border-radius: 5px;
+    box-shadow: rgb(9, 117, 56) 3px 2px 2px;
+    padding: 10px;
+}
+
+.hero_button{
+    margin: 0;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero_button:hover{
+    margin: 0;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ################################################ Section Annonce ################################################ */
+
+.annonce_text {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ######################## Part 1 ######################## */
+
+.section_one {
+    width: 100vw;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card{
+    height: 500px;
+    margin-left: 50px;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text{
+    margin-top: 20px;
+    text-align: center;
+}
+.card-title {
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: seagreen;
+    color: white;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: rgb(0, 0, 0) 2px 1px 1px;
+}
+
+/* ######################## Part 2 ######################## */
+
+.section_two {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+/* ################################################ Section Stat ################################################ */
+
+.stats-section {
+    width: 100vw;
+    height: 150vh;
+    background-color: #EAE5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-title {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+/* ######################## Lorem text ######################## */
+
+.stat-text {
+    width: 50vw;
+    text-align: center;
+}
+
+.stat-text>h2 {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* ################################################ Footer ################################################ */
+
+footer {
+    width: 100vw;
+    height: 80vh;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+/* ######################## Brand section ######################## */
+.brand {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ######################## EDF ######################## */
+
+.edf {
+    width: 50%;
+    display: flex;
+    color: gray;
+    font-style: italic;
+    font-size: 25px;
+    line-height: normal;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+.edf-img {
+    height: 10vh;
+    margin-right: 30px;
+}
+
+/* ######################## Monsanto ######################## */
+.monsanto {
+    width: 50%;
+    display: flex;
+    color: gray;
+    font-style: italic;
+    font-size: 25px;
+    line-height: normal;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+.monsanto-img {
+    height: 10vh;
+    margin-right: 30px;
+}
+
+/* ######################## Brand text ######################## */
+
+.brand-text {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-style: italic;
+    font-size: 25px;
+    line-height: normal;
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.monsanto-text {
+    margin-right: 90px;
+}
+
+/* ######################## Social ######################## */
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.social-logo>img {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-left: 20px;
+}
+
+/* ######################## ESD ######################## */
+
+.ESD {
+    display: flex;
+    justify-content: center;
+}
+
+.ESD>p {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
